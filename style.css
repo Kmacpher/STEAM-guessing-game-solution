@@ -8,18 +8,21 @@ img {
     display: inline;
 }
 
+/* For the div that contains our full application/game */
 #app {
     width: 60%;
     margin: 50px auto;
     background-color: rgba(256, 256, 256, 0.5)
 }
 
+/* For the div that contains our input element and button element */
 #input-parent {
     width: 160px;
     margin: 5% auto 50px;
     position: relative;
 }
 
+/* For the input element */
 #player-input {
     border-radius: 50%;
     width: 160px;
@@ -27,6 +30,7 @@ img {
     font-size: 60px;
 }
 
+/* For the button that says 'Go!' */
 #submit {
     border-radius: 50%;
     width: 60px;
@@ -36,7 +40,7 @@ img {
     left: 110px;
 }
 
-
+/* For the last div in the project, that says who made the game */
 #footer {
     width: 100%;
     border-top: solid 2px black;
@@ -45,10 +49,12 @@ img {
     bottom: 0;
 }
 
+/* Adding the class 'center' will center the text inside the div */
 .center {
     text-align: center;
 }
 
+/* Add the 'guess' class to each list element (li element) */
 .guess {
     display: inline;
     font-size: 60px;
