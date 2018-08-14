@@ -1,7 +1,7 @@
 ## Guessing Game for the STEAM Symposium at Westlake Highschool
 
-- Link to workshop walkthrough:
-- Link to slides:
+- Link to workshop walkthrough: https://kmacpher.github.io/STEAM-guessing-game/
+- Link to slides: https://slides.com/karenmacpherson/how-do-we-make-a-game
 
 ### Instructor Lesson Plan - topics to cover
 _More instructions for each topic can be found in the presenter notes in the slides_
