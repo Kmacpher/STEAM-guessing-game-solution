@@ -4,30 +4,32 @@
     <title>Guessing Game</title>
 
     <!-- CSS and Javascript links go here -->
+    <link rel="stylesheet" href="style.css" />
+    <script src="game.js" defer></script>
 
   </head>
   <body>
 
-      <div>
+      <div id="app">
 
-        <div>
+        <div class="center">
           <h1>Play the Guessing Game!</h1>
           <h3 id="subtitle">Guess a number between 1-100!</h3>
         </div>
 
         <div>
-          <div >
-            <input maxlength='3' autofocus=autofocus></input>
-            <button>Go!</button>
+          <div id="input-parent">
+            <input class="center" id="player-input" maxlength='3' autofocus=autofocus></input>
+            <button id="submit">Go!</button>
           </div>
 
-          <div>
-            <ul id="guest-list">
-              <li>-</li>
-              <li>-</li>
-              <li>-</li>
-              <li>-</li>
-              <li>-</li>
+          <div class="center">
+            <ul id="guess-list">
+              <li class="guess">-</li>
+              <li class="guess">-</li>
+              <li class="guess">-</li>
+              <li class="guess">-</li>
+              <li class="guess">-</li>
             </ul>
           </div>
 
@@ -36,7 +38,7 @@
 
 
 
-    <div>
+    <div id="footer" class="center">
 
           <div>
             <h4>Project by YOUR NAME HERE</h4>
